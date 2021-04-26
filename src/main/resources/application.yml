@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL92Dialect
+    show-sql: true
+  datasource:
+    password: password
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/oakseed
