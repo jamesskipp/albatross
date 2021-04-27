@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @AllArgsConstructor
-public enum Role {
+public enum Role implements DbCharEnum {
     ADMIN('A'), USER('U');
 
     @Getter

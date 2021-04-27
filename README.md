@@ -1,4 +1,6 @@
-# oakseed
-### Spring Boot REST API Seed Project
+# Albatross
+### Spring Boot REST API Project
 
-This is a Spring Boot REST API seed project using Spring Security and PostgreSQL.
+Manage resources belonging to complex data flows.
+
+Adapted from the OakSeed Spring Boot REST API seed project.

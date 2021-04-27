@@ -1,5 +1,13 @@
 package com.jamesskipp.albatross.util;
 
-public enum DataType {
-    AUDIT, METRICS, USER_DATA, OTHER
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
+public enum DataType implements DbCharEnum {
+    AUDIT('A'), METRICS('M'), USER_DATA('U'), OTHER('O');
+
+    @Getter
+    private final Character code;
+
 }
